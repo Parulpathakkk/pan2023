@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  #main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #main > article {
+    width: 93%;
+  
+    height: 90vh;
+    display: flex;
+  }
+  #main > article > #left {
+    background-color: rgb(62, 86, 200);
+    height: 90vh;
+    width: 20%;
+    color: white;
+    border-radius: 18px;
+    align-items: center;
+  
+    text-align: left;
+  }
+  #left > div {
+    margin-top: 200px;
+    margin-left: 70px;
+  }
+  #left > div > h4 {
+    padding: 8px;
+    font-size: 20px;
+  }
+  #right {
+    height: 90vh;
+    width: 80%;
+    padding-left: 10px;
+  }
+  #right > nav {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #right > div {
+    display: flex;
+  }
+  #right > div > .pho {
+    width: 35%;
+  
+    height: 85vh;
+  }
+  #right > div > .det {
+    width: 65%;
+  
+    align-items: center;
+  }
+  #right > div > .det > #add {
+    width: 50%;
+  
+    text-align: center;
+    margin-left: 80px;
+  }
+  td {
+    font-size: large;
+  }
+  .label {
+    color: grey;
+  
+    padding: 10px;
+  }
+  .data {
+    color: rgb(53, 52, 52);
+  }
+  #lat {
+    text-align: right;
+  }
+  #lat > p {
+    text-align: right;
+  }
+  
